@@ -1,9 +1,10 @@
-
+import React from "react"
+import TopicBrowser from "./components/TopicBrowser/TopicBrowser.js"
 
 function App() {
   return (
-    <div>Replace this whole div!</div>
-  );
+    <TopicBrowser />
+  )
 }
 
 export default App;
